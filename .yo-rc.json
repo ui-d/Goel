@@ -1,0 +1,13 @@
+{
+  "generator-chisel": {
+    "config": {
+      "name": "Atomics",
+      "author": "DawidNawrocki",
+      "projectType": "fe",
+      "nameSlug": "atomics",
+      "nameCamel": "Atomics",
+      "chiselVersion": "0.16.0",
+      "has_jquery": false
+    }
+  }
+}
