@@ -1,0 +1,19 @@
+/* ==========================================================================
+   #FLOATS
+   ========================================================================== */
+
+%float-right {
+  float: right;
+}
+%float-left {
+  float: left;
+}
+%float-none {
+  float: none;
+}
+%clearfix::after {
+  display: table;
+  clear: both;
+
+  content: '';
+}
