@@ -68,7 +68,7 @@ Below you can find materials, that were very inspiring for:
 
 ## Code comparison
 
-<p align="center"><img width="100%" src="https://img.techpowerup.org/191124/screenshot-2019-11-24-at-13-28-21-1.jpg" alt="Screenshot-2019-11-24-at-13-13-46-1" border="0"></p>
+<p align="center"><img width="100%" src="https://raw.githubusercontent.com/michu1234/Goel/master/src/img/goel_comparison.jpg" alt="goel comparison code" border="0"></p>
 
 ## Create files and folders
 
