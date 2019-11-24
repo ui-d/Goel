@@ -1,9 +1,11 @@
 <p align="center">
   <img src="https://i.ibb.co/1b6G5qM/Screenshot-2019-11-20-at-21-18-47-2.jpg" width="100%" alt="Goel logo">
 </p>
+
 > Sass has a special kind of selector known as a “placeholder”. It looks and acts a lot like a class selector, but **it starts with a % and it's not included in the CSS output**. In fact, any complex selector (the ones between the commas) that even contains a placeholder selector isn't included in the CSS, nor is any style rule whose selectors all contain placeholders,
 <br />
-<img src="https://i.ibb.co/XS6NP0X/goel-1.png" alt="goel-1" border="0">
+
+<p align="center"><img src="https://i.ibb.co/XS6NP0X/goel-1.png" alt="goel-1" border="0"></p>
 
 &nbsp;
 
