@@ -47,7 +47,7 @@ h1, h2, span, p {
 <h6 align="center">I would like to show you my approach to writing clean and developer friendly SCSS architecture. This is the way I would like to think about it nowadays.</h6>
 &nbsp; &nbsp;
 
-<p align="center"><img src="https://i.ibb.co/68VNySS/tuxpi-com-1574369119.jpg" width="50px" alt="Goel logo"> </p>
+<p align="center"><img src="https://github.com/michu1234/Goel/blob/master/src/img/goel_logo.jpg?raw=true" width="50px" alt="Goel logo"> </p>
 <h5 align=center>GOEL  - Utility SASS Placeholders</h5>
 <p align="center">GOEL is a SCSS library, which consists of multiple placeholders, build in utility / functional / atomic style.</p>
 &nbsp; 
