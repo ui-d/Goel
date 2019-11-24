@@ -3,10 +3,29 @@
   Author: DawidNawrocki
  */
 
-@import 'settings/*';
-@import 'tools/*';
-@import 'generic/*';
-@import 'elements/*';
-@import 'objects/*';
-@import 'components/*';
-@import 'utilities/*';
+@import 'settings/global';
+@import 'tools/breakpoints';
+@import 'tools/clearfix';
+@import 'tools/hidden';
+@import 'generic/font-face';
+@import 'generic/normalize';
+@import 'generic/reset';
+@import 'elements/blockquote';
+@import 'elements/headings';
+@import 'elements/hr';
+@import 'elements/html';
+@import 'elements/images';
+@import 'elements/links';
+@import 'elements/lists';
+@import 'elements/tables';
+@import 'objects/layout.scss';
+@import 'objects/media.scss';
+@import 'objects/wrapper.scss';
+@import 'components/btn';
+@import 'components/footer';
+@import 'components/header';
+
+// GOEL
+
+@import 'utilities/GOEL';
+

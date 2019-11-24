@@ -11,9 +11,15 @@
 %float-none {
   float: none;
 }
-%clearfix::after {
-  display: table;
+%clear-both {
   clear: both;
-
-  content: '';
+}
+%clear-both {
+  clear: left;
+}
+%clear-both {
+  clear: right;
+}
+%clear-none {
+  clear: none;
 }

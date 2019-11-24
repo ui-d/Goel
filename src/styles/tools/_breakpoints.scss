@@ -3,11 +3,10 @@
 //   ======================================================================== */
 
 @function bp-val($name) {
+  $val: map-get($breakpoints, $name);
   @if type-of($name) == 'number' {
     @return $name;
   }
-
-  $val: map-get($breakpoints, $name);
 
   @if $val == null {
     @error 'Breakpoint #{$name} not found';
@@ -19,12 +18,11 @@
 @function bp-val-next($name) {
   $breakpoint-names: map_keys($breakpoints);
   $n: index($breakpoint-names, $name);
+  $next-key: nth($breakpoint-names, $n + 1);
 
   @if $n >= length($breakpoint-names) {
     @error 'Next breakpoint after #{$name} not found';
   }
-
-  $next-key: nth($breakpoint-names, $n + 1);
   @return map-get($breakpoints, $next-key);
 }
 
@@ -39,20 +37,19 @@
 @mixin bp-down($name) {
   $val: bp-val($name);
 
-  @media (max-width: $val - 0.02) {
+  @media (max-width: $val - .02) {
     @content;
   }
 }
 
 @mixin bp-only($name) {
+  $min: bp-val($name);
+  $max: bp-val-next($name);
   @if type-of($name) == 'number' {
     @error '#{$name} should be breakpoint name';
   }
 
-  $min: bp-val($name);
-  $max: bp-val-next($name);
-
-  @media (min-width: $min) and (max-width: $max - 0.02) {
+  @media (min-width: $min) and (max-width: $max - .02) {
     @content;
   }
 }
@@ -61,7 +58,7 @@
   $min: bp-val($name1);
   $max: bp-val($name2);
 
-  @media (min-width: $min) and (max-width: $max - 0.02) {
+  @media (min-width: $min) and (max-width: $max - .02) {
     @content;
   }
 }
