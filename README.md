@@ -1,19 +1,17 @@
 <p align="center">
   <img src="https://i.ibb.co/1b6G5qM/Screenshot-2019-11-20-at-21-18-47-2.jpg" width="100%" alt="Goel logo">
 </p>
-
 > Sass has a special kind of selector known as a “placeholder”. It looks and acts a lot like a class selector, but **it starts with a % and it's not included in the CSS output**. In fact, any complex selector (the ones between the commas) that even contains a placeholder selector isn't included in the CSS, nor is any style rule whose selectors all contain placeholders,
+<br />
+<img src="https://i.ibb.co/XS6NP0X/goel-1.png" alt="goel-1" border="0">
 
-<img width="100%" src="https://i.ibb.co/19zpX70/goelscss.png" alt="goelscss" border="0">
 &nbsp;
-&nbsp;
-&nbsp;
+
 <h6 align="center">I would like to show you my approach to writing clean and developer friendly SCSS architecture. This is the way I would like to think about it nowadays.</h6>
 &nbsp; &nbsp;
 
-<h5 align=center><img src="https://i.ibb.co/68VNySS/tuxpi-com-1574369119.jpg" width="50px" alt="Goel logo"> GOEL  - Utility SASS Placeholders</h5>
-&nbsp;
-&nbsp;
+<p align="center"><img src="https://i.ibb.co/68VNySS/tuxpi-com-1574369119.jpg" width="50px" alt="Goel logo"> </p>
+<h5 align=center>GOEL  - Utility SASS Placeholders</h5>
 GOEL is a SCSS library, which consists of multiple placeholders, build in utility / functional / atomic style.
 &nbsp; 
 &nbsp;
