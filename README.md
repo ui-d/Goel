@@ -31,10 +31,12 @@ h1 {
 
 ```
 <h1 align="center">⬇️</h1>
-```css
+
+```scss
 h1, h2, span, p {
   color: purple;
 }
+
 ```
 &nbsp;
 
