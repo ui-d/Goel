@@ -9,6 +9,7 @@
 
 
 ```scss
+// placeholder
 %purple {
   color: purple;
 }
@@ -62,7 +63,7 @@ Below you can find materials, that were very inspiring for:
 
 ## Code comparison
 
-<p align="center"><img src="https://i.ibb.co/PMYK5Q2/Screenshot-2019-11-24-at-13-13-46.png" alt="Screenshot-2019-11-24-at-13-13-46" border="0"></p>
+<p align="center"><img width="100%" src="https://i.ibb.co/PMYK5Q2/Screenshot-2019-11-24-at-13-13-46.png" alt="Screenshot-2019-11-24-at-13-13-46" border="0"></p>
 
 ## Create files and folders
 
