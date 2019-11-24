@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.ibb.co/1b6G5qM/Screenshot-2019-11-20-at-21-18-47-2.jpg" width="100%" alt="Goel logo">
+  <img src="https://raw.githubusercontent.com/michu1234/Goel/master/src/img/goel_background.jpg" width="100%" alt="Goel logo">
 </p>
 
 # PLACEHOLDER
