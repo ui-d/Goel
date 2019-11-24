@@ -1,9 +1,11 @@
-
-<p align="center>![enter image description here](https://i.ibb.co/1b6G5qM/Screenshot-2019-11-20-at-21-18-47-2.jpg "GOEL - utility sass placeholders")</>
+<p align="center">
+  <img src="https://i.ibb.co/1b6G5qM/Screenshot-2019-11-20-at-21-18-47-2.jpg" width="100%" alt="Goel logo">
+</p>
 
 #  GOEL  - Utility SASS Placeholders
-
-![enter image description here](https://i.ibb.co/68VNySS/tuxpi-com-1574369119.jpg "GOEL - utility sass placeholders")
+<p align="left">
+  <img src="https://i.ibb.co/68VNySS/tuxpi-com-1574369119.jpg" width="200px" alt="Goel logo">
+</p>
 
 Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
 
