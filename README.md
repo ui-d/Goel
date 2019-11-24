@@ -30,7 +30,7 @@ h1 {
 }
 
 ```
-<h1 align="center">⬇️</h1>
+<p style="font-size: 55px" align="center">👇</hp>
 
 ```scss
 h1, h2, span, p {
@@ -45,7 +45,7 @@ h1, h2, span, p {
 
 <p align="center"><img src="https://i.ibb.co/68VNySS/tuxpi-com-1574369119.jpg" width="50px" alt="Goel logo"> </p>
 <h5 align=center>GOEL  - Utility SASS Placeholders</h5>
-GOEL is a SCSS library, which consists of multiple placeholders, build in utility / functional / atomic style.
+<p align="center">GOEL is a SCSS library, which consists of multiple placeholders, build in utility / functional / atomic style.</p>
 &nbsp; 
 &nbsp;
 This approach comes with multiple benefits for front-end / ui developers.
@@ -60,10 +60,9 @@ This approach comes with multiple benefits for front-end / ui developers.
 &nbsp;
 Below you can find materials, that were very inspiring for:
 
+## Code comparison
 
-# Files
-
-StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
+<p align="center"><img src="https://i.ibb.co/PMYK5Q2/Screenshot-2019-11-24-at-13-13-46.png" alt="Screenshot-2019-11-24-at-13-13-46" border="0"></p>
 
 ## Create files and folders
 
