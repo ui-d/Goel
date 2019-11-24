@@ -2,11 +2,40 @@
   <img src="https://i.ibb.co/1b6G5qM/Screenshot-2019-11-20-at-21-18-47-2.jpg" width="100%" alt="Goel logo">
 </p>
 
+# PLACEHOLDER
+
 > Sass has a special kind of selector known as a “placeholder”. It looks and acts a lot like a class selector, but **it starts with a % and it's not included in the CSS output**. In fact, any complex selector (the ones between the commas) that even contains a placeholder selector isn't included in the CSS, nor is any style rule whose selectors all contain placeholders,
 <br />
 
-<p align="center"><img src="https://i.ibb.co/XS6NP0X/goel-1.png" alt="goel-1" border="0"></p>
 
+```scss
+%purple {
+  color: purple;
+}
+
+p {
+  @extend %purple;
+}
+
+span {
+  @extend %purple;
+}
+
+h2 {
+  @extend %purple;
+}
+
+h1 {
+  @extend %purple;
+}
+
+```
+<h1 align="center">⬇️</h1>
+```css
+h1, h2, span, p {
+  color: purple;
+}
+```
 &nbsp;
 
 <h6 align="center">I would like to show you my approach to writing clean and developer friendly SCSS architecture. This is the way I would like to think about it nowadays.</h6>
