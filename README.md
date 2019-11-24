@@ -1,5 +1,5 @@
 
-![enter image description here](https://i.ibb.co/1b6G5qM/Screenshot-2019-11-20-at-21-18-47-2.jpg "GOEL - utility sass placeholders")
+<p align="center>![enter image description here](https://i.ibb.co/1b6G5qM/Screenshot-2019-11-20-at-21-18-47-2.jpg "GOEL - utility sass placeholders")</>
 
 #  GOEL  - Utility SASS Placeholders
 
