@@ -9,9 +9,12 @@
 
 
 ```scss
-// placeholder
+// placeholders
 %purple {
   color: purple;
+}
+%red {
+ color: red;
 }
 
 p {
@@ -60,6 +63,8 @@ This approach comes with multiple benefits for front-end / ui developers.
 
 &nbsp;
 Below you can find materials, that were very inspiring for:
+
+&nbsp;
 
 ## Code comparison
 
