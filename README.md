@@ -2,12 +2,30 @@
   <img src="https://i.ibb.co/1b6G5qM/Screenshot-2019-11-20-at-21-18-47-2.jpg" width="100%" alt="Goel logo">
 </p>
 
-#  GOEL  - Utility SASS Placeholders
-<p align="left">
-  <img src="https://i.ibb.co/68VNySS/tuxpi-com-1574369119.jpg" width="200px" alt="Goel logo">
-</p>
+> Sass has a special kind of selector known as a “placeholder”. It looks and acts a lot like a class selector, but **it starts with a % and it's not included in the CSS output**. In fact, any complex selector (the ones between the commas) that even contains a placeholder selector isn't included in the CSS, nor is any style rule whose selectors all contain placeholders,
 
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
+
+
+###### I would like to show you my approach to writing clean and developer friendly SCSS architecture. This is the way I would like to think about it nowadays.
+&nbsp;
+
+<p align=center><img src="https://i.ibb.co/68VNySS/tuxpi-com-1574369119.jpg" width="50px" alt="Goel logo"> **GOEL  - Utility SASS Placeholders**</p>
+
+&nbsp;
+GOEL is a SCSS library, which consists of multiple placeholders, build in utility / functional / atomic style.
+&nbsp; 
+&nbsp;
+This approach comes with multiple benefits for front-end / ui developers.
+
+- match semantic and functional css
+- create developer friendly class names using well known methodologies like BEM, OOCSS
+- use well known architecure like ITCSS
+- write clean CSS without unnecesery repetition
+- write clean HTML without cluttering it with unnecessary classes
+- stop wasting time for setup additional dependencies like purgeCSS: **unused placeholders are not included in output!**
+
+&nbsp;
+Below you can find materials, that were very inspiring for:
 
 
 # Files
@@ -96,41 +114,9 @@ SmartyPants converts ASCII punctuation characters into "smart" typographic punct
 |Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
 
 
-## KaTeX
-
-You can render LaTeX mathematical expressions using [KaTeX](https://khan.github.io/KaTeX/):
-
-The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral
-
-$$
-\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
-$$
-
-> You can find more information about **LaTeX** mathematical expressions [here](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
 
 
 ## UML diagrams
 
 You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
 
-```mermaid
-sequenceDiagram
-Alice ->> Bob: Hello Bob, how are you?
-Bob-->>John: How about you John?
-Bob--x Alice: I am good thanks!
-Bob-x John: I am good thanks!
-Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
-
-Bob-->Alice: Checking with John...
-Alice->John: Yes... John, how are you?
-```
-
-And this will produce a flow chart:
-
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
