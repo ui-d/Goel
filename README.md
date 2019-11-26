@@ -68,7 +68,7 @@ Below you can find materials, that were very inspiring for:
 
 ## Code comparison
 
-<p align="center"><img width="100%" src="https://raw.githubusercontent.com/michu1234/Goel/master/src/img/goel_comparison.jpg" alt="goel comparison code" border="0"></p>
+<p align="center"><img width="100%" src="https://raw.githubusercontent.com/michu1234/Goel/master/src/img/goel_comparison.jpg" alt="goel comparison" border="0"></p>
 
 ## Create files and folders
 
