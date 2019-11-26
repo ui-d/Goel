@@ -77,7 +77,7 @@ Lets
 
 ## Utility placeholder examples
 
-######1 placeholder consists of 1 CSS declaration
+###### 1 placeholder consists of 1 CSS declaration
 
 ```scss
 %flex-row {
@@ -134,6 +134,9 @@ Lets
 
 ```
 
+&nbsp;
+&nbsp;
+
 ## Output example
 
 ```scss
@@ -154,7 +157,9 @@ Lets
 }
 
 ```
-<p style="font-size: 55px" align="center">👇</hp>
+<p style="font-size: 55px" align="center">👇</h>
+
+
 ```css
 .menu, .menu__block, .menu__wrapper, .menu__list, .menu__list-item {
   display: flex;
