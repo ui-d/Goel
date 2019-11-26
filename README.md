@@ -48,7 +48,7 @@ h1, h2, span, p {
 &nbsp; &nbsp;
 
 <p align="center"><img src="https://github.com/michu1234/Goel/blob/master/src/img/goel_logo.jpg?raw=true" width="50px" alt="Goel logo"> </p>
-<h5 align=center>GOEL  - Utility SASS Placeholders</h5>
+<h1 align=center>GOEL  - Utility SASS Placeholders</h1>
 <p align="center">GOEL is a SCSS library, which consists of multiple placeholders, build in utility / functional / atomic style.</p>
 &nbsp; 
 &nbsp;
