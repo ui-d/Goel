@@ -34,7 +34,8 @@ h1 {
 }
 
 ```
-<p style="font-size: 55px" align="center">👇</hp>
+<p style="font-size: 55px" align="center">👇</p>
+&nbsp;&nbsp;
 
 ```scss
 h1, h2, span, p {
@@ -42,6 +43,7 @@ h1, h2, span, p {
 }
 
 ```
+
 &nbsp;
 
 <h6 align="center">I would like to show you my approach to writing clean and developer friendly SCSS architecture. This is the way I would like to think about it nowadays.</h6>
