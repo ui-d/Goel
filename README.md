@@ -73,19 +73,94 @@ Lets
 
 <p align="center"><img width="100%" src="https://raw.githubusercontent.com/michu1234/Goel/master/src/img/goel_comparison.jpg" alt="goel comparison" border="0"></p>
 
-## Create files and folders
+## Utility placeholder examples
 
-The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
+######1 placeholder consists of 1 CSS declaration
 
-## Switch to another file
+```scss
+%flex-row {
+  flex-direction: row;
+}
+%flex-row-reverse {
+  flex-direction: row-reverse;
+}
+%flex-col {
+  flex-direction: column;
+}
+%visible {
+  visibility: visible;
+}
+%invisible {
+  visibility: hidden;
+}
 
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
+```
 
-## Rename a file
+## Implementation example
 
-You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
+```html
+<div class="menu">
 
-## Delete a file
+	<div class="menu__item menu__item--green"></div>
+	<div class="menu__item menu__item--green"></div>
+
+</div>
+
+```
+
+```scss
+.menu {
+  width: 500px;
+  padding: 20px 40px 20px 40px;
+
+  @extend %flex;
+  @extend %flex-col;
+  @extend %font-bold;
+  @extend %text-center;
+  @extend %bg-black;
+  @extend %c-white;
+
+  &__item {
+    @extend %underline;
+    @extend %flex;
+  }
+
+  &--green {
+    @extend %c-green;
+  }
+}
+
+```
+
+## Output example
+
+```scss
+.menu {
+  @extend %flex;
+}
+.menu__block {
+  @extend %flex;
+}
+.menu__wrapper {
+@extend %flex;
+}
+.menu__list {
+  @extend %flex;
+}
+.menu__list-item {
+  @extend %flex;
+}
+
+```
+<p style="font-size: 55px" align="center">👇</hp>
+```css
+.menu, .menu__block, .menu__wrapper, .menu__list, .menu__list-item {
+  display: flex;
+}
+
+```
+
+## Unused placeholders doesn't go to production
 
 You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
 
