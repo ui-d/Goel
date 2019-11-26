@@ -46,11 +46,31 @@ h1, h2, span, p {
 
 <h6 align="center">I would like to show you my approach to writing clean and developer friendly SCSS architecture. This is the way I would like to think about it nowadays.</h6>
 &nbsp; &nbsp;
-
+<p align=center><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRw
+Oi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNzgiIGhlaWdodD0iMjAiPgogICAgPGxp
+bmVhckdyYWRpZW50IGlkPSJiIiB4Mj0iMCIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNl
+dD0iMCIgc3RvcC1jb2xvcj0iI2JiYiIgc3RvcC1vcGFjaXR5PSIuMSIvPgogICAgICAgIDxzdG9w
+IG9mZnNldD0iMSIgc3RvcC1vcGFjaXR5PSIuMSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAg
+IDxjbGlwUGF0aCBpZD0iYSI+CiAgICAgICAgPHJlY3Qgd2lkdGg9Ijc4IiBoZWlnaHQ9IjIwIiBy
+eD0iMyIgZmlsbD0iI2ZmZiIvPgogICAgPC9jbGlwUGF0aD4KICAgIDxnIGNsaXAtcGF0aD0idXJs
+KCNhKSI+CiAgICAgICAgPHBhdGggZmlsbD0iIzU1NSIgZD0iTTAgMGg0N3YyMEgweiIvPgogICAg
+ICAgIDxwYXRoIGZpbGw9InBpbmsiIGQ9Ik00NyAwaDMxdjIwSDQ3eiIvPgogICAgICAgIDxwYXRo
+IGZpbGw9InVybCgjYikiIGQ9Ik0wIDBoNzh2MjBIMHoiLz4KICAgIDwvZz4KICAgIDxnIGZpbGw9
+IiNmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJEZWphVnUgU2FucyxWZXJk
+YW5hLEdlbmV2YSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExMCI+CiAgICAgICAgPHRleHQgeD0i
+MjQ1IiB5PSIxNTAiIGZpbGw9IiMwMTAxMDEiIGZpbGwtb3BhY2l0eT0iLjMiIHRyYW5zZm9ybT0i
+c2NhbGUoLjEpIiB0ZXh0TGVuZ3RoPSIzNzAiPmxpY2Vuc2U8L3RleHQ+CiAgICAgICAgPHRleHQg
+eD0iMjQ1IiB5PSIxNDAiIHRyYW5zZm9ybT0ic2NhbGUoLjEpIiB0ZXh0TGVuZ3RoPSIzNzAiPmxp
+Y2Vuc2U8L3RleHQ+CiAgICAgICAgPHRleHQgeD0iNjE1IiB5PSIxNTAiIGZpbGw9IiMwMTAxMDEi
+IGZpbGwtb3BhY2l0eT0iLjMiIHRyYW5zZm9ybT0ic2NhbGUoLjEpIiB0ZXh0TGVuZ3RoPSIyMTAi
+Pk1JVDwvdGV4dD4KICAgICAgICA8dGV4dCB4PSI2MTUiIHk9IjE0MCIgdHJhbnNmb3JtPSJzY2Fs
+ZSguMSkiIHRleHRMZW5ndGg9IjIxMCI+TUlUPC90ZXh0PgogICAgPC9nPgo8L3N2Zz4K"></p>
 <p align="center"><img src="https://github.com/michu1234/Goel/blob/master/src/img/goel_logo.jpg?raw=true" width="50px" alt="Goel logo"> </p>
-<h1 align=center>GOEL  - Utility SASS Placeholders</h1>
+<h1 style="margin-top: -25px" align=center>GOEL </h1>
+<h3 style="margin-top: -25px" align=center>Utility SASS Placeholders</h3>
+
 <p align="center">GOEL is a SCSS library, which consists of multiple placeholders, build in utility / functional / atomic style.</p>
-&nbsp; 
+
 &nbsp;
 This approach comes with multiple benefits for front-end / ui developers.
 
@@ -67,6 +87,7 @@ Below you can find materials, that were very inspiring for:
 &nbsp;
 
 ## Code comparison
+Lets
 
 <p align="center"><img width="100%" src="https://raw.githubusercontent.com/michu1234/Goel/master/src/img/goel_comparison.jpg" alt="goel comparison" border="0"></p>
 
