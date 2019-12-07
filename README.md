@@ -99,7 +99,7 @@ h1, h2, span, p {
 ## Comparison
 Lets
 
-<p align="center"><img width="100%" src="https://raw.githubusercontent.com/michu1234/Goel/master/src/img/goel_comparison.jpg" alt="goel comparison" border="0"></p>
+<p align="center"><img width="100%" src="https://raw.githubusercontent.com/michu1234/Goel/master/src/img/goel.png" alt="goel comparison" border="0"></p>
 
 ## Examples
 
