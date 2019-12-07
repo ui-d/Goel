@@ -25,7 +25,7 @@
 
 ## Description
 
-Goel is a sass placeholder library, allowing to marry funcional and semantic approach in css. It will help you write clean, easy to read code, with clean output - without using tools like purgeCSS.
+Goel is a sass placeholder library, allowing to marry functional and semantic approach in css. It will help you write clean, easy to read code, with DRY output.
 
 <h6 align="center">I would like to show you my approach to writing clean and developer friendly SCSS architecture. This is the way I would like to think about it nowadays.</h6>
 
@@ -33,20 +33,19 @@ Goel is a sass placeholder library, allowing to marry funcional and semantic app
 &nbsp;
 This approach comes with multiple benefits for front-end / ui developers.
 
-- match semantic and functional css
-- create developer friendly class names using well known methodologies like BEM, OOCSS
-- use well known architecure like ITCSS
-- write clean CSS without unnecesery repetition
+- match semantic and functional CSS
+- create developer-friendly class names using well-known methodologies like BEM, OOCSS
+- use well-known architecture like ITCSS
+- write clean CSS without unnecessary repetition
 - write clean HTML without cluttering it with unnecessary classes
-- stop wasting time for setup additional dependencies like purgeCSS: **unused placeholders are not included in output!**
-- easy to setup and compose as you like
+- stop wasting time to set up additional dependencies
+- placeholders are not included in output = DRY code
+- easy to set up and compose as you like
 - easy to control how things look
-- easy to extend (new placeholders, mixins, variables etc.)
+- easy to extend (new placeholders, mixins, variables, etc.)
 - clean and beautiful output, configure as you wish
 - simple and minimal syntax
 
-&nbsp;
-Below you can find materials, that were very inspiring for:
 
 ## Install
 
