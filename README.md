@@ -17,7 +17,7 @@
 - [Install](#intsall)
 - [Placeholder](#placeholder)
 - [Code comparison](#comparison)
-- [Utility placeholder examples](#examples)
+- [Utility placeholder implementation](#implementation)
 - [Usage](#usage)
 - [Output](#output)
 - [License](#license)
@@ -91,13 +91,13 @@ h1, h2, span, p {
 ```
 
 ## Comparison
-Lets
+Lets compare functional and semantic approach
 
 <p align="center"><img width="100%" src="https://raw.githubusercontent.com/michu1234/Goel/master/src/img/goel.png" alt="goel comparison" border="0"></p>
 
-## Examples
+## Implementation
 
-###### 1 placeholder consists of 1 CSS declaration
+##### 1 placeholder consists of 1 CSS declaration / mixin
 
 ```scss
 %flex-row {
