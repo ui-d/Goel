@@ -28,7 +28,7 @@
 Goel is a sass placeholder library, allowing to marry functional and semantic approach in css. It will help you write clean, easy to read code, with DRY output.
 
 ## Highlights
-&nbsp;
+
 This approach comes with multiple benefits for front-end / ui developers.
 
 - match semantic and functional CSS
@@ -89,10 +89,6 @@ h1, h2, span, p {
 }
 
 ```
-
-&nbsp;
-
-&nbsp;
 
 ## Comparison
 Lets
@@ -157,9 +153,6 @@ Lets
 }
 
 ```
-
-&nbsp;
-&nbsp;
 
 ## Output
 
