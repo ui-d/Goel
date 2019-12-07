@@ -2,7 +2,28 @@
   <img src="https://raw.githubusercontent.com/michu1234/Goel/master/src/img/goel_background.jpg" width="100%" alt="Goel logo">
 </p>
 
+## Contents
+
+- [Description](#description)
+- [Highlights](#highlights)
+- [Contents](#contents)
+- [Install](#install)
+- [Configuration](#configuration)
+- [Usage](#usage)
+- [Development](#development)
+- [Related](#related)
+- [Team](#team)
+- [FAQ](#faq)
+- [Acknowledgements](#acknowledgements)
+- [License](#license)
+
+## Description
+
+Goel is a sass placeholder library, allowing to marry funcional and semantic approach in css. It will help you write clean, easy to read code, with clean output - without using tools like purgeCSS.
+
 <h6 align="center">I would like to show you my approach to writing clean and developer friendly SCSS architecture. This is the way I would like to think about it nowadays.</h6>
+
+
 &nbsp; &nbsp;
 <p align=center><img src="https://raw.githubusercontent.com/michu1234/Goel/master/src/img/mit.png"></p>
 <p align="center"><img src="https://github.com/michu1234/Goel/blob/master/src/img/goel_logo.jpg?raw=true" width="50px" alt="Goel logo"> </p>
@@ -11,6 +32,7 @@
 
 <p align="center">GOEL is a SCSS library, which consists of multiple placeholders, build in utility / functional / atomic style.</p>
 
+## Highlights
 &nbsp;
 This approach comes with multiple benefits for front-end / ui developers.
 
@@ -20,6 +42,11 @@ This approach comes with multiple benefits for front-end / ui developers.
 - write clean CSS without unnecesery repetition
 - write clean HTML without cluttering it with unnecessary classes
 - stop wasting time for setup additional dependencies like purgeCSS: **unused placeholders are not included in output!**
+- easy to setup and compose as you like
+- easy to control how things look
+- easy to extend (new placeholders, mixins, variables etc.)
+- clean and beautiful output, configure as you wish
+- simple and minimal syntax
 
 &nbsp;
 Below you can find materials, that were very inspiring for:
