@@ -16,11 +16,10 @@
 - [Highlights](#highlights)
 - [Install](#intsall)
 - [Placeholder](#placeholder)
-- [Code comparison](#code)
-- [Utility placeholder examples](#utility)
+- [Code comparison](#comparison)
+- [Utility placeholder examples](#examples)
 - [Usage](#usage)
 - [Output](#output)
-- [Clean code](#clean)
 - [License](#license)
 
 
@@ -97,12 +96,12 @@ h1, h2, span, p {
 
 &nbsp;
 
-## Code comparison
+## Comparison
 Lets
 
 <p align="center"><img width="100%" src="https://raw.githubusercontent.com/michu1234/Goel/master/src/img/goel_comparison.jpg" alt="goel comparison" border="0"></p>
 
-## Utility placeholder examples
+## Examples
 
 ###### 1 placeholder consists of 1 CSS declaration
 
@@ -194,9 +193,6 @@ Lets
 
 ```
 
-## Clean code
-
-You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
 
 ## License
 
