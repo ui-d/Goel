@@ -8,7 +8,7 @@
 <h1 style="margin-top: -25px" align=center>GOEL </h1>
 <h3 style="margin-top: -25px" align=center>Utility SASS Placeholders</h3>
 
-<p align="center">GOEL is a SCSS library, which consists of multiple placeholders, build in utility / functional / atomic style.</p>
+<p align="center">GOEL is an SCSS library, which consists of multiple placeholders, build in utility/functional/atomic style.</p>
 
 ## Contents
 
@@ -27,14 +27,13 @@
 
 Goel is a sass placeholder library, allowing to marry functional and semantic approach in css. It will help you write clean, easy to read code, with DRY output.
 
-<h6 align="center">I would like to show you my approach to writing clean and developer friendly SCSS architecture. This is the way I would like to think about it nowadays.</h6>
-
 ## Highlights
 &nbsp;
 This approach comes with multiple benefits for front-end / ui developers.
 
 - match semantic and functional CSS
 - create developer-friendly class names using well-known methodologies like BEM, OOCSS
+- use a functional approach to CSS
 - use well-known architecture like ITCSS
 - write clean CSS without unnecessary repetition
 - write clean HTML without cluttering it with unnecessary classes
