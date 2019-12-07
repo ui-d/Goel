@@ -2,21 +2,6 @@
   <img src="https://raw.githubusercontent.com/michu1234/Goel/master/src/img/goel_background.jpg" width="100%" alt="Goel logo">
 </p>
 
-## Contents
-
-- [Description](#description)
-- [Highlights](#highlights)
-- [Install](#intsall)
-- [Placeholder](#placeholder)
-- [Code comparison](#Code comparison)
-- [Utility placeholder examples](#Utility placeholder examples)
-- [Usage](#usage)
-- [Output](#output)
-- [Clean code](#Clean code)
-- [License](#license)
-
-
-
 &nbsp; &nbsp;
 <p align=center><img src="https://raw.githubusercontent.com/michu1234/Goel/master/src/img/mit.png"></p>
 <p align="center"><img src="https://github.com/michu1234/Goel/blob/master/src/img/goel_logo.jpg?raw=true" width="50px" alt="Goel logo"> </p>
@@ -24,6 +9,20 @@
 <h3 style="margin-top: -25px" align=center>Utility SASS Placeholders</h3>
 
 <p align="center">GOEL is a SCSS library, which consists of multiple placeholders, build in utility / functional / atomic style.</p>
+
+## Contents
+
+- [Description](#description)
+- [Highlights](#highlights)
+- [Install](#intsall)
+- [Placeholder](#placeholder)
+- [Code comparison](#code)
+- [Utility placeholder examples](#utility)
+- [Usage](#usage)
+- [Output](#output)
+- [Clean code](#clean)
+- [License](#license)
+
 
 ## Description
 
