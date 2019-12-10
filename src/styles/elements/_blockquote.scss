@@ -4,7 +4,7 @@
 
 blockquote {
   quotes: '“' '”' '‘' '’';
-  font-style: italic;
+  @extend %italic;
 
   p:first-child {
     &:before {

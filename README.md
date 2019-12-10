@@ -39,6 +39,7 @@ This approach comes with multiple benefits for front-end / ui developers.
 - write clean HTML without cluttering it with unnecessary classes
 - stop wasting time to set up additional dependencies
 - placeholders are not included in output = DRY code
+- Tailwind CSS naming convention
 - easy to set up and compose as you like
 - easy to control how things look
 - easy to extend (new placeholders, mixins, variables, etc.)

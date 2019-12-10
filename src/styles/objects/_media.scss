@@ -4,24 +4,23 @@
 
 
 .o-media {
-  display: block;
-
+  @extend %block;
   @include clearfix();
 }
 
 .o-media__img {
-  float: left;
-
   margin-right: 1rem;
 
+  @extend %float-left;
+
   > img {
-    display: block;
+    @extend %block;
   }
 }
 
 .o-media__body {
-  display: block;
-  overflow: hidden;
+  @extend %block;
+  @extend %overflow-hidden;
 
   &,
   > :last-child {
@@ -31,10 +30,10 @@
 
 .o-media--reverse {
   > .o-media__img {
-    float: right;
-
     margin-right: 0;
     margin-left: 1rem;
+
+    @extend %float-right;
   }
 }
 

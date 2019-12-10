@@ -5,10 +5,10 @@
 /* Simple flexbox layout system */
 
 .o-layout {
-  display: block;
+  @extend %block;
 
   @include bp(medium) {
-    display: flex;
+    @extend %flex;
   }
 }
 

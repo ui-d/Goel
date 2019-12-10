@@ -4,9 +4,10 @@
 
 
 img {
-  font-style: italic; /* [2] */
   max-width: 100%; /* [1] */
-  vertical-align: middle; /* [3] */
+
+  @extend %italic;
+  @extend %italic;
 }
 
 img[width],
