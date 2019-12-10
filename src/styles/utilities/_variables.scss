@@ -1,81 +1,65 @@
 /* ----------- QUERIES ------------ */
-
-$mobile: 'min-width: 480px';
-$tablet: 'min-width: 768px';
-$tablet-lg: 'min-width: 920px';
-$screen-sm: 'min-width: 1170px';
-$screen: 'min-width: 1600px';
+$screen:     'min-width: 2100px';
+$desktop:    'min-width: 1600px';
+$desktop-sm: 'min-width: 1170px';
+$tablet-lg:  'min-width: 920px';
+$tablet:     'min-width: 768px';
+$mobile:     'min-width: 480px';
 
 /* ----------- GLOBAL ------------- */
+
 $transitions: all 0.3s ease-in-out;
-
-$max-width-md: 920px;
-$max-width-sm: 760px;
-$max-width-xs: 360px;
-
-$padding-lg: 60px;
-$padding-md: 40px;
+$padding-lg:   60px;
+$padding-md:   40px;
 $padding-base: 30px;
-$padding-sm: 15px;
+$padding-sm:   15px;
 
+$border-radius-large: 6px;
+$border-radius-base:  4px;
+$border-radius-small: 3px;
 
 /* ----------- COLORS ------------- */
-$darker-gray:               #535353;
-$dark-gray:                 #484848;
-$gray:                      #888F94;
-$light-gray:                #bdbdbd; //#ccc;
-$lighter-gray:              #e5e5e5; //#e5e5e5
-$lightest-gray:             #f9f9f9;
 
-$tooltip-bg:                #556672;
+$gray-6:     #535353;
+$gray-5:     #484848;
+$gray-4:     #888F94;
+$gray-3:     #bdbdbd;
+$gray-2:     #e5e5e5; 
+$gray-1:     #f9f9f9;
 
-$section-border-color:      #e9e9dc;
 
-$brand-primary:             #20A5FF;
-$brand-primary-hover:       #2C8AC9;
-$brand-primary-active:      #1592E6;
-$brand-primary-bg:          #e0eef7;
+$blue-4:     #20A5FF;
+$blue-3:     #2C8AC9;
+$blue-2:     #1592E6;
+$blue-1:     #e0eef7;
 
-$brand-success:             #2EDBB0;
-$brand-success-hover:       #1FD7A9;
-$brand-success-active:      lighten($brand-success, 10);
-$brand-success-bg:          #e7f5f2;
+$green-4:    #2EDBB0;
+$green-3:    #1FD7A9;
+$green-2:    #d4fff6;
+$green-1:    #e7f5f2;
 
-$brand-info:                #5bc0de;
-$brand-info-bg:             #e1f2fc;
+$yellow-2:   #fab63a;
+$yellow-1:   #fff1db;
 
-$brand-warning:             #fab63a;
-$brand-warning-bg:          #fff1db;
-
-$brand-danger:              #FF605C;
-$brand-danger-hover:        #FF5252;
-$brand-danger-active:       #F74C4C;
-$brand-danger-bg:           #fde7e5;
-
-$body-bg:                   #f7f7f7;
-$bg-light-blue:             #ecf8ff;
-$tooltip-color:             #a9a9a9;
-$api-bg:                    #f4f7fa;
-$api-border-color:          #dde3e8;
-
-$brand-menu:                #1190E6;
-
-$border-radius-base:        4px;
-$border-radius-large:       6px;
-$border-radius-small:       3px;
+$red-4:      #FF605C;
+$red-3:      #FF5252;
+$red-2:      #F74C4C;
+$red-1:      #fde7e5;
 
 /* ----------- TYPOGRAPHY ------------- */
 /* ----- Basic fonts, headers, links --------- */
 
 $line-height-base:          1.5;
 
-$font-family-base:          "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-color-base:           #39454D;
-$font-size-lg:              18px; //16px;
-$font-size-base:            16px; //14px;
-$font-size-md:              16px; //12px;
-$font-size-sm:              14px; //12px;
-$font-size-xs:              12px; //12px;
+$font-first: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-second: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+$font-size-lg:              18px;
+$font-size-base:            16px;
+$font-size-md:              16px;
+$font-size-sm:              14px;
+$font-size-xs:              12px;
 
 
 $font-size-h1:              36px;
@@ -84,52 +68,4 @@ $font-size-h3:              32px;
 $font-size-h4:              24px;
 $font-size-h5:              18px;
 $font-size-h6:              18px;
-
-$link-color:                $brand-menu;
-$link-color-hover:          $brand-primary-hover;
-
-/* ----------- BUTTONS ------------- */
-
-$btn-color:                 #fff;
-$btn-font-size:             $font-size-base;
-$btn-font-weight:           normal;
-$btn-border-width:          1px;
-$btn-border-color:          $lighter-gray;
-$btn-border-radius-base:    $border-radius-base;
-$btn-default-bg-hover:      #f3f3f3;
-
-$btn-large-font-size:       17px;
-
-/* -------------- FORMS ---------------*/
-
-$input-bg:                  #fff;
-$input-bg-disabled:         $lighter-gray;
-$input-border-disabled:     $lighter-gray;
-$input-color:               $gray;
-$input-border:              $light-gray;
-$input-border-focus:        $brand-primary;
-
-$input-color-placeholder:   $light-gray;
-
-$input-height-base:         40px;
-$input-height-large:        50px;
-$input-height-small:        34px;
-
-$input-padding-base:        9px 12px;
-$input-padding-large:       14px 12px;
-$input-padding-small:       7px 12px;
-
-$form-group-margin-bottom:  15px;
-
-$input-group-addon-bg:      $input-bg;
-$input-group-addon-border-color: $input-border;
-
-$checkbox-line-height:      18px;
-
-$input-addon-padding:   30px;
-
-
-//** Disabled cursor
-$cursor-disabled:           not-allowed;
-
 

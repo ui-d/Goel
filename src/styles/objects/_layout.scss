@@ -6,10 +6,6 @@
 
 .o-layout {
   @extend %block;
-
-  @include bp(medium) {
-    @extend %flex;
-  }
 }
 
 .o-layout__item {
