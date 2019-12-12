@@ -1,10 +1,3 @@
-/* ----------- QUERIES ------------ */
-$screen:     'min-width: 2100px';
-$desktop:    'min-width: 1600px';
-$desktop-sm: 'min-width: 1170px';
-$tablet-lg:  'min-width: 920px';
-$tablet:     'min-width: 768px';
-$mobile:     'min-width: 480px';
 
 /* ----------- GLOBAL ------------- */
 
@@ -14,6 +7,11 @@ $padding-lg:   60px;
 $padding-md:   40px;
 $padding-base: 30px;
 $padding-sm:   15px;
+
+$margin-lg:   60px;
+$margin-md:   40px;
+$margin-base: 30px;
+$margin-sm:   15px;
 
 $border-radius-lg:    6px;
 $border-radius-base:  4px;
