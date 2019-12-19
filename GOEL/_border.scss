@@ -1,0 +1,21 @@
+%rounded-none {
+  border-radius: 0;
+}
+%rounded-lg {
+  border-radius: $border-radius-lg;
+}
+%rounded-md {
+  border-radius: $border-radius-md;
+}
+%rounded-base {
+  border-radius: $border-radius-base;
+}
+%rounded-sm {
+  border-radius: $border-radius-sm;
+}
+%rounded-xs {
+  border-radius: $border-radius-xs;
+}
+%rounded-full {
+  border-radius: 9999px;
+}

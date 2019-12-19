@@ -1,0 +1,49 @@
+/* ==========================================================================
+   #DISPLAY
+   ========================================================================== */
+
+%block {
+  display: block;
+}
+%inline-block {
+  display: inline-block;
+}
+%inline {
+  display: inline;
+}
+%flex {
+  display: flex;
+}
+%inline-flex {
+  display: inline-flex;
+}
+%list-item {
+  display: list-item;
+}
+%table {
+  display: table;
+}
+%inline-table {
+  display: inline-table;
+}
+%table-row {
+  display: table-row;
+}
+%table-cell {
+  display: table-cell;
+}
+%table-caption {
+  display: table-caption;
+}
+%hidden {
+  display: none;
+}
+%grid {
+  display: grid;
+}
+%inline-grid {
+  display: inline-grid;
+}
+%compact {
+  display: compact;
+}

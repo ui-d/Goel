@@ -1,0 +1,69 @@
+
+/* ----------- GLOBAL ------------- */
+
+$transitions: all 0.3s ease-in-out;
+
+$padding-lg:   60px;
+$padding-md:   40px;
+$padding-base: 30px;
+$padding-sm:   15px;
+
+$margin-lg:   60px;
+$margin-md:   40px;
+$margin-base: 30px;
+$margin-sm:   15px;
+
+$border-radius-lg:    6px;
+$border-radius-base:  4px;
+$border-radius-sm:    3px;
+$border-radius-sm:    2px;
+$border-radius-xs:    1px;
+
+/* ----------- COLORS ------------- */
+
+$gray-6:     #535353;
+$gray-5:     #484848;
+$gray-4:     #888F94;
+$gray-3:     #bdbdbd;
+$gray-2:     #e5e5e5; 
+$gray-1:     #f9f9f9;
+
+
+$blue-4:     #20A5FF;
+$blue-3:     #2C8AC9;
+$blue-2:     #1592E6;
+$blue-1:     #e0eef7;
+
+$green-4:    #2EDBB0;
+$green-3:    #1FD7A9;
+$green-2:    #d4fff6;
+$green-1:    #e7f5f2;
+
+$yellow-2:   #fab63a;
+$yellow-1:   #fff1db;
+
+$red-4:      #FF605C;
+$red-3:      #FF5252;
+$red-2:      #F74C4C;
+$red-1:      #fde7e5;
+
+/* ----------- TYPOGRAPHY ------------- */
+
+$line-height-base:          1.5;
+
+$font-first: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-second: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$font-size-lg:              32px;
+$font-size-md:              24px;
+$font-size-base:            18px;
+$font-size-sm:              16px;
+$font-size-xs:              14px;
+
+/* ----- OPACITY --------- */
+
+$opacity-4: 1;
+$opacity-3: 0.75;
+$opacity-2: 0.50;
+$opacity-1: 0.25;
+$opacity-0: 0;
