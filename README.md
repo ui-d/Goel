@@ -49,11 +49,11 @@ This approach comes with multiple benefits for front-end / ui developers.
 
 ## Install
 
-`
+```
 npm install @michu1234/goel
 
-@import /node_modules/GOEL/GOEL
-`
+```
+Import GOEL.scss from @import /node_modules/GOEL/GOEL to your SASS file
 
 ## PLACEHOLDER
 
