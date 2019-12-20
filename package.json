@@ -1,8 +1,8 @@
 {
-  "name": "Goel",
-  "version": "0.0.1",
+  "name": "@michu1234/goel",
+  "version": "1.0.2",
   "author": "DawidNawrocki",
-  "description": "Utility Sass Placeholders",
+  "description": "Utility SASS Placeholders Library, build in utility/functional/atomic style",
   "scripts": {
     "build": "parcel build index.html",
     "dev": "parcel index.html"
@@ -12,9 +12,9 @@
     "parcel-bundler": "^1.12.4",
     "prettier": "1.14.3",
     "sass": "^1.23.7",
-    "stylelint": "^9.2.1"
-  },
-  "dependencies": {
+    "stylelint": "^9.2.1",
     "normalize-scss": "^7.0.1"
-  }
+  },
+  "license": "MIT",
+  "keywords": ["sass", "library", "placeholder", "preprocessor", "css", "framework", "functional css", "atomic css", "functional css", "clean css", "utility framework", "utility library", "css"]
 }

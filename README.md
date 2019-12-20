@@ -49,6 +49,12 @@ This approach comes with multiple benefits for front-end / ui developers.
 
 ## Install
 
+`
+npm install @michu1234/goel
+
+@import /node_modules/GOEL/GOEL
+`
+
 ## PLACEHOLDER
 
 > Sass has a special kind of selector known as a “placeholder”. It looks and acts a lot like a class selector, but **it starts with a % and it's not included in the CSS output**. In fact, any complex selector (the ones between the commas) that even contains a placeholder selector isn't included in the CSS, nor is any style rule whose selectors all contain placeholders,
