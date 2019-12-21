@@ -1,6 +1,6 @@
 {
   "name": "@michu1234/goel",
-  "version": "1.0.2",
+  "version": "1.0.7",
   "author": "DawidNawrocki",
   "description": "Utility SASS Placeholders Library, build in utility/functional/atomic style",
   "scripts": {
