@@ -103,7 +103,7 @@ Let's compare functional and semantic approach
 
 ## Implementation
 
-##### 1 GOEL placeholder consists of 1 CSS declaration / mixin
+##### 1 GOEL placeholder consists of 1 CSS declaration
 
 ```scss
 %flex-row {

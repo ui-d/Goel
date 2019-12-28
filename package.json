@@ -1,6 +1,6 @@
 {
   "name": "@michu1234/goel",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "author": "DawidNawrocki",
   "description": "Utility SASS Placeholders Library, build in utility/functional/atomic style",
   "scripts": {
@@ -16,5 +16,9 @@
     "normalize-scss": "^7.0.1"
   },
   "license": "MIT",
-  "keywords": ["sass", "library", "placeholder", "preprocessor", "css", "framework", "functional css", "atomic css", "functional css", "clean css", "utility framework", "utility library", "css"]
+  "keywords": ["sass", "library", "placeholder", "preprocessor", "css", "framework", "functional css", "atomic css", "functional css", "clean css", "utility framework", "utility library", "css"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michu1234/Goel.git"
+}
 }
